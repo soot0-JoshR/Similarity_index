@@ -30,7 +30,7 @@ def sim_index_scan(target_dir):
             # Load the original image
             img = cv2.imread(os.path.join(target_dir, file))
 
-            # Split the image into 16 sub-images
+            # Split the image into sub-images
             sub_images = []
             for i in range(size):
                 for j in range(size):
